@@ -1,39 +1,62 @@
-# Marketing-Restaurant 
-A restaurant consolidator is looking to revamp the B2C portal using intelligent automation tech. This requires a different matrix to identify the star restaurants and generate recommendations. To make sure an effective model can be achieved, it is important to understand the behavior of the data in hand.
+Restaurant Insights & Recommendation System
 
+Project Type: Dashboard-Based Data Analysis
 
+Tool Used: Tableau and Excel
 
-🧾 Restaurant Insights & Recommendation System
-Tool: Tableau | Project Type: B2C Dashboard | Goal: Identify Star Restaurants & Explore Dining Trends
+Objective: Analyze and visualize restaurant data to identify high-performing establishments and uncover key
+patterns in customer preferences, service availability, cost, and cuisine offerings.
 
-📌 Objective
-Build an intelligent, interactive dashboard for a restaurant consolidator to:
-Discover high-performing restaurants
-Understand customer behavior
-Recommend restaurants using a custom Star Score
+Project Overview
+This project focuses on building a comprehensive, interactive dashboard solution for a restaurant consolidator
+looking to revamp its B2C portal. The objective is to identify 'star restaurants' based on multiple performance
+factors, visualize restaurant behavior across geographies, and deliver actionable insights through effective data
+storytelling. The analysis was conducted using a combination of two datasets: Restaurant Data: Includes
+information on ratings, votes, delivery options, cuisine types, cost, and location.
 
-📂 Data Used
-data.csv: Restaurant details (ratings, cuisines, delivery, cost, etc.)
-country-code.csv: Maps country codes to names
+Country Code Data: Provides mapping between country codes and names.
 
-🔍 Analysis Highlights
-City-wise & country-wise restaurant distribution
-Online Delivery & Table Booking availability
-Top 10 Cuisines globally & per city
-Cost vs Rating analysis
-Franchise presence across countries
-Votes: Delivery vs Non-delivery comparison
-Max/Min cuisines per restaurant
+Methodology
+Data Cleaning and Preparation:
+• Removed duplicate records and handled missing values
+• Merged datasets for meaningful country-level insights
+Exploratory Data Analysis:
+• Assessed restaurant distribution by city and country
+• Analyzed availability of online delivery and table booking
+• Identified most and least popular cuisines and service patterns
+• Compared customer engagement (votes) based on delivery status
+• Evaluated price ranges and rating distributions across service types
+Star Score Calculation:
+• A custom scoring metric combining average rating, number of votes, online delivery, and table booking
+availability
+• Used to rank and surface high-performing or 'star' restaurants
+Dashboard Design
 
-⭐ Star Score Model
-A custom metric based on:
-Aggregate Rating
-Number of Votes
-Online Delivery
-Table Booking availability
-Used to rank and recommend Star Restaurants.
+Market Overview Dashboard
+• Restaurant count by city and country
+• Table booking and online delivery availability ratios
+• Rating text distribution and delivery-based engagement
 
-📊 Final Dashboards (3)
-Market Overview – Distribution, delivery, booking
-Star Restaurants – Top performers, cost, cuisine variety
-Cuisine & Cost Insights – Top cuisines, cost trends, rating factors
+Star Restaurants Dashboard
+• Top-rated restaurants based on custom Star Score
+• Restaurants with highest average cost
+• Max/min cuisine variety per restaurant
+• Price range segmentation
+
+Cuisine and Cost Analysis Dashboard
+• Top 10 most popular cuisines
+• Most served cuisine by city
+• Distribution of cost for two
+• Comparative analysis of ratings across services and cost levels
+
+Key Insights
+• Certain cuisines (e.g., North Indian, Chinese) dominate the market across multiple cities
+• Online delivery and table booking options are positively correlated with higher votes and ratings
+• High pricing does not always result in higher customer ratings
+• A small number of international franchises have a strong multi-country presence
+
+Conclusion
+This project delivers a scalable, visual, and interactive solution for understanding restaurant performance and
+customer behavior. By combining metric-based scoring with clear visual analysis, the dashboards provide
+decision-makers with powerful tools to identify standout restaurants, optimize services, and improve user
+experience on consumer platforms.
