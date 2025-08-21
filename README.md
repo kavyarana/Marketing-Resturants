@@ -50,7 +50,7 @@ Cuisine and Cost Analysis Dashboard
 • Comparative analysis of ratings across services and cost levels
 
 Key Insights
-• Certain cuisines (e.g., North Indian, Chinese) dominate the market across multiple cities
+• Certain cuisines (e.g., North Indian) dominate the market across multiple cities
 • Online delivery and table booking options are positively correlated with higher votes and ratings
 • High pricing does not always result in higher customer ratings
 • A small number of international franchises have a strong multi-country presence
